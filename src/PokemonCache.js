@@ -71,7 +71,7 @@ const cleanUpStorage=(data)=>{
         }
     }
 
-    //remove the oldest cache if there is no more space in local storage (5 MB)
+
     if(!isDeleted && oldestKey){
         delete data[oldestKey]
     }
